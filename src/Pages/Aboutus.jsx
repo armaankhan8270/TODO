@@ -1,5 +1,5 @@
 import React from 'react'
-import armaan from './armaan1.png'
+import armaan from '../Images/armaan1.png'
 const Aboutus = () => {
   return (
     <div className='resize hover:animate-puls flex shadow-lg h-screen m-12 pb-24 -mt-10 '>

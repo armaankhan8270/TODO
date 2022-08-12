@@ -4,9 +4,10 @@ import { db } from './firebase--config';
 import { useState,useEffect } from 'react';
 import { async } from '@firebase/util';
 import Delete from './de.jpg'
-import Navbar from './Navbar';
-import SignIn from './SignIn';
+import Navbar from './Pages/Navbar';
+import SignIn from './Pages/SignIn';
 import { BrowserRouter, Routes ,Route} from 'react-router-dom';
+import Arman from './Pages/Arman';
 // import DeleteIcon from '@mui/icons-material/Delete';
 
 function App() {

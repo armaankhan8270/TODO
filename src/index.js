@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter,Routes,Route  } from 'react-router-dom';
-import Navbar from './Navbar';
-import SignIn from './SignIn';
-import Contact from './Contact';
-import Aboutus from './Aboutus';
+import Navbar from './Pages/Navbar';
+import SignIn from './Pages/SignIn';
+import Contact from './Pages/Contact';
+import Aboutus from './Pages/Aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

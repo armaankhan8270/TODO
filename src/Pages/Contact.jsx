@@ -1,5 +1,4 @@
 import React from 'react'
-import message from './message.webp' 
 
 const Contact = () => {
   return (
